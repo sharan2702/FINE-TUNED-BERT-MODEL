@@ -1,0 +1,115 @@
+Training completed. Do not forget to share your model on huggingface.co/models =)
+***** Running Evaluation *****
+  Num examples = 1250
+  Batch size = 8
+{'train_runtime': 117.0673, 'train_samples_per_second': 32.033, 'train_steps_per_second': 4.006, 'train_loss': 0.43802094612040243, 'epoch': 1.0}
+***** Running Evaluation *****
+  Num examples = 1250
+  Batch size = 8
+***** Running Evaluation *****
+  Num examples = 1250
+  Batch size = 8
+***** Running Evaluation *****
+  Num examples = 1250
+  Batch size = 8
+PyTorch: setting up devices
+The default value for the training argument `--report_to` will change in v5 (from all installed integrations to none). In v5, you will need to use `--report_to all` to get the same behavior as now. You should start updating your code and make this info disappear :-).
+***** Running Evaluation *****
+  Num examples = 1250
+  Batch size = 8
+Automatic Weights & Biases logging enabled, to disable set os.environ["WANDB_DISABLED"] = "true"
+PyTorch: setting up devices
+The default value for the training argument `--report_to` will change in v5 (from all installed integrations to none). In v5, you will need to use `--report_to all` to get the same behavior as now. You should start updating your code and make this info disappear :-).
+***** Running Evaluation *****
+  Num examples = 1250
+  Batch size = 8
+Automatic Weights & Biases logging enabled, to disable set os.environ["WANDB_DISABLED"] = "true"
+SequenceClassifierOutput(loss=None, logits=tensor([[ 0.7076, -1.0239]], device='cuda:0', grad_fn=<AddmmBackward0>), hidden_states=None, attentions=None)
+SequenceClassifierOutput(loss=None, logits=tensor([[ 0.7076, -1.0239]], device='cuda:0', grad_fn=<AddmmBackward0>), hidden_states=None, attentions=None)
+tensor([[0.8496, 0.1504]], device='cuda:0', grad_fn=<SoftmaxBackward0>)
+tensor([[0.8496, 0.1504]])
+SequenceClassifierOutput(loss=None, logits=tensor([[ 0.7076, -1.0239]], device='cuda:0', grad_fn=<AddmmBackward0>), hidden_states=None, attentions=None)
+tensor([[0.8496, 0.1504]], device='cuda:0', grad_fn=<SoftmaxBackward0>)
+tensor([[0.8496, 0.1504]])
+SequenceClassifierOutput(loss=None, logits=tensor([[ 0.7076, -1.0239]], device='cuda:0', grad_fn=<AddmmBackward0>), hidden_states=None, attentions=None)
+tensor([[1., 1.]], device='cuda:0', grad_fn=<SoftmaxBackward0>)
+tensor([[1., 1.]])
+SequenceClassifierOutput(loss=None, logits=tensor([[ 0.7076, -1.0239]], device='cuda:0', grad_fn=<AddmmBackward0>), hidden_states=None, attentions=None)
+tensor([[0.8496, 0.1504]], device='cuda:0', grad_fn=<SoftmaxBackward0>)
+tensor([[0.8496, 0.1504]])
+SequenceClassifierOutput(loss=None, logits=tensor([[ 0.7076, -1.0239]], device='cuda:0', grad_fn=<AddmmBackward0>), hidden_states=None, attentions=None)
+tensor([[0.8496, 0.1504]], device='cuda:0', grad_fn=<SoftmaxBackward0>)
+tensor([[0.8496, 0.1504]])
+Saving model checkpoint to CustomModel
+Configuration saved in CustomModel\config.json
+Model weights saved in CustomModel\pytorch_model.bin
+loading configuration file CustomModel\config.json
+Model config BertConfig {
+  "_name_or_path": "bert-base-uncased",
+  "architectures": [
+    "BertForSequenceClassification"
+  ],
+  "attention_probs_dropout_prob": 0.1,
+  "classifier_dropout": null,
+  "gradient_checkpointing": false,
+  "hidden_act": "gelu",
+  "hidden_dropout_prob": 0.1,
+  "hidden_size": 768,
+  "initializer_range": 0.02,
+  "intermediate_size": 3072,
+  "layer_norm_eps": 1e-12,
+  "max_position_embeddings": 512,
+  "model_type": "bert",
+  "num_attention_heads": 12,
+  "num_hidden_layers": 12,
+  "pad_token_id": 0,
+  "position_embedding_type": "absolute",
+  "problem_type": "single_label_classification",
+  "torch_dtype": "float32",
+  "transformers_version": "4.24.0",
+  "type_vocab_size": 2,
+  "use_cache": true,
+  "vocab_size": 30522
+}
+loading weights file CustomModel\pytorch_model.bin
+All model checkpoint weights were used when initializing BertForSequenceClassification.
+All the weights of BertForSequenceClassification were initialized from the model checkpoint at CustomModel.
+If your task is similar to the task the model of the checkpoint was trained on, you can already use BertForSequenceClassification for predictions without further training.
+SequenceClassifierOutput(loss=None, logits=tensor([[ 0.7076, -1.0239]], device='cuda:0', grad_fn=<AddmmBackward0>), hidden_states=None, attentions=None)
+tensor([[0.8496, 0.1504]], device='cuda:0', grad_fn=<SoftmaxBackward0>)
+tensor([[0.8496, 0.1504]])
+SequenceClassifierOutput(loss=None, logits=tensor([[ 0.7266, -0.9736]], device='cuda:0', grad_fn=<AddmmBackward0>), hidden_states=None, attentions=None)
+tensor([[0.8456, 0.1544]], device='cuda:0', grad_fn=<SoftmaxBackward0>)
+tensor([[0.8456, 0.1544]])
+SequenceClassifierOutput(loss=None, logits=tensor([[ 0.7266, -0.9736]], device='cuda:0', grad_fn=<AddmmBackward0>), hidden_states=None, attentions=None)
+tensor([[0.8456, 0.1544]], device='cuda:0', grad_fn=<SoftmaxBackward0>)
+tensor([[0.8456, 0.1544]])
+SequenceClassifierOutput(loss=None, logits=tensor([[ 0.8135, -1.1617]], device='cuda:0', grad_fn=<AddmmBackward0>), hidden_states=None, attentions=None)
+tensor([[0.8782, 0.1218]], device='cuda:0', grad_fn=<SoftmaxBackward0>)
+tensor([[0.8782, 0.1218]])
+SequenceClassifierOutput(loss=None, logits=tensor([[ 0.7212, -1.2228]], device='cuda:0', grad_fn=<AddmmBackward0>), hidden_states=None, attentions=None)
+tensor([[0.8748, 0.1252]], device='cuda:0', grad_fn=<SoftmaxBackward0>)
+tensor([[0.8748, 0.1252]])
+SequenceClassifierOutput(loss=None, logits=tensor([[ 0.7212, -1.2228]], device='cuda:0', grad_fn=<AddmmBackward0>), hidden_states=None, attentions=None)
+tensor([[0.8748, 0.1252]], device='cuda:0', grad_fn=<SoftmaxBackward0>)
+tensor([[0.8748, 0.1252]])
+SequenceClassifierOutput(loss=None, logits=tensor([[ 0.7212, -1.2228]], device='cuda:0', grad_fn=<AddmmBackward0>), hidden_states=None, attentions=None)
+tensor([[0.8748, 0.1252]], device='cuda:0', grad_fn=<SoftmaxBackward0>)
+tensor([[0.8748, 0.1252]])
+SequenceClassifierOutput(loss=None, logits=tensor([[ 0.7212, -1.2228]], device='cuda:0', grad_fn=<AddmmBackward0>), hidden_states=None, attentions=None)
+tensor([[0.8748, 0.1252]], device='cuda:0', grad_fn=<SoftmaxBackward0>)
+tensor([[0.8748, 0.1252]])
+SequenceClassifierOutput(loss=None, logits=tensor([[ 0.7212, -1.2228]], device='cuda:0', grad_fn=<AddmmBackward0>), hidden_states=None, attentions=None)
+tensor([[0.8748, 0.1252]], device='cuda:0', grad_fn=<SoftmaxBackward0>)
+tensor([[0.8748, 0.1252]])
+SequenceClassifierOutput(loss=None, logits=tensor([[ 0.8542, -0.9385]], device='cuda:0', grad_fn=<AddmmBackward0>), hidden_states=None, attentions=None)
+tensor([[0.8572, 0.1428]], device='cuda:0', grad_fn=<SoftmaxBackward0>)
+tensor([[0.8572, 0.1428]])
+SequenceClassifierOutput(loss=None, logits=tensor([[ 0.8542, -0.9385]], device='cuda:0', grad_fn=<AddmmBackward0>), hidden_states=None, attentions=None)
+tensor([[0.8572, 0.1428]], device='cuda:0', grad_fn=<SoftmaxBackward0>)
+tensor([[0.8572, 0.1428]])
+SequenceClassifierOutput(loss=None, logits=tensor([[ 0.7214, -1.0156]], device='cuda:0', grad_fn=<AddmmBackward0>), hidden_states=None, attentions=None)
+tensor([[0.8503, 0.1497]], device='cuda:0', grad_fn=<SoftmaxBackward0>)
+tensor([[0.8503, 0.1497]])
+SequenceClassifierOutput(loss=None, logits=tensor([[ 0.8614, -1.2502]], device='cuda:0', grad_fn=<AddmmBackward0>), hidden_states=None, attentions=None)
+tensor([[0.8920, 0.1080]], device='cuda:0', grad_fn=<SoftmaxBackward0>)

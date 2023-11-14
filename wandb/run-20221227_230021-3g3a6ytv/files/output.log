@@ -1,0 +1,32 @@
+
+Training completed. Do not forget to share your model on huggingface.co/models =)
+{'train_runtime': 975.4119, 'train_samples_per_second': 3.845, 'train_steps_per_second': 0.241, 'train_loss': 0.3291206197535738, 'epoch': 1.0}
+***** Running Evaluation *****
+  Num examples = 1250
+  Batch size = 8
+***** Running Evaluation *****
+  Num examples = 1250
+  Batch size = 8
+***** Running Evaluation *****
+  Num examples = 1250
+  Batch size = 8
+PyTorch: setting up devices
+The default value for the training argument `--report_to` will change in v5 (from all installed integrations to none). In v5, you will need to use `--report_to all` to get the same behavior as now. You should start updating your code and make this info disappear :-).
+***** Running Evaluation *****
+  Num examples = 1250
+  Batch size = 8
+c:\Anaconda\envs\torch_env\lib\site-packages\transformers\optimization.py:306: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+***** Running training *****
+  Num examples = 3750
+  Num Epochs = 1
+  Instantaneous batch size per device = 16
+  Total train batch size (w. parallel, distributed & accumulation) = 16
+  Gradient Accumulation steps = 1
+  Total optimization steps = 235
+  Number of trainable parameters = 109483778
+Automatic Weights & Biases logging enabled, to disable set os.environ["WANDB_DISABLED"] = "true"
+Training completed. Do not forget to share your model on huggingface.co/models =)
+***** Running Evaluation *****
+  Num examples = 1250
+  Batch size = 8

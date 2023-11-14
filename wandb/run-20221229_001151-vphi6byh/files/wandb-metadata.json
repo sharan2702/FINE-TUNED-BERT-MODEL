@@ -1,0 +1,49 @@
+{
+    "os": "Windows-10-10.0.22000-SP0",
+    "python": "3.10.8",
+    "heartbeatAt": "2022-12-28T18:41:52.612771",
+    "startedAt": "2022-12-28T18:41:51.451270",
+    "docker": null,
+    "cuda": null,
+    "args": null,
+    "state": "running",
+    "program": "<python with no main file>",
+    "git": {
+        "remote": "https://git.heroku.com/tamper-app.git",
+        "commit": null
+    },
+    "email": "rajashekarvt58@gmail.com",
+    "root": "C:/Users/rajashekar V.T",
+    "host": "LAPTOP-I926VBU6",
+    "username": "rajashekar V.T",
+    "executable": "c:\\Anaconda\\envs\\torch_env\\python.exe",
+    "cpu_count": 8,
+    "cpu_count_logical": 16,
+    "cpu_freq": {
+        "current": 3201.0,
+        "min": 0.0,
+        "max": 3201.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 3201.0,
+            "min": 0.0,
+            "max": 3201.0
+        }
+    ],
+    "disk": {
+        "total": 250.63507461547852,
+        "used": 176.20365524291992
+    },
+    "gpu": "NVIDIA GeForce RTX 3070 Laptop GPU",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA GeForce RTX 3070 Laptop GPU",
+            "memory_total": 8589934592
+        }
+    ],
+    "memory": {
+        "total": 15.422168731689453
+    }
+}

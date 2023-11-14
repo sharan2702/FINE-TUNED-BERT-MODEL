@@ -1,0 +1,58 @@
+Training completed. Do not forget to share your model on huggingface.co/models =)
+***** Running Evaluation *****
+  Num examples = 1250
+  Batch size = 8
+{'train_runtime': 110.6683, 'train_samples_per_second': 33.885, 'train_steps_per_second': 4.238, 'train_loss': 0.4348703152589452, 'epoch': 1.0}
+C:\Users\rajashekar V.T\AppData\Roaming\Python\Python310\site-packages\sklearn\metrics\_classification.py:1318: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+Saving model checkpoint to CustomModel
+Configuration saved in CustomModel\config.json
+SequenceClassifierOutput(loss=None, logits=tensor([[ 1.3312, -0.6090]], device='cuda:0', grad_fn=<AddmmBackward0>), hidden_states=None, attentions=None)
+tensor([[0.8744, 0.1256]], device='cuda:0', grad_fn=<SoftmaxBackward0>)
+tensor([[0.8744, 0.1256]])
+Model weights saved in CustomModel\pytorch_model.bin
+loading configuration file CustomModel\config.json
+Model config BertConfig {
+  "_name_or_path": "bert-base-uncased",
+  "architectures": [
+    "BertForSequenceClassification"
+  ],
+  "attention_probs_dropout_prob": 0.1,
+  "classifier_dropout": null,
+  "gradient_checkpointing": false,
+  "hidden_act": "gelu",
+  "hidden_dropout_prob": 0.1,
+  "hidden_size": 768,
+  "initializer_range": 0.02,
+  "intermediate_size": 3072,
+  "layer_norm_eps": 1e-12,
+  "max_position_embeddings": 512,
+  "model_type": "bert",
+  "num_attention_heads": 12,
+  "num_hidden_layers": 12,
+  "pad_token_id": 0,
+  "position_embedding_type": "absolute",
+  "problem_type": "single_label_classification",
+  "torch_dtype": "float32",
+  "transformers_version": "4.24.0",
+  "type_vocab_size": 2,
+  "use_cache": true,
+  "vocab_size": 30522
+}
+loading weights file CustomModel\pytorch_model.bin
+All model checkpoint weights were used when initializing BertForSequenceClassification.
+All the weights of BertForSequenceClassification were initialized from the model checkpoint at CustomModel.
+If your task is similar to the task the model of the checkpoint was trained on, you can already use BertForSequenceClassification for predictions without further training.
+SequenceClassifierOutput(loss=None, logits=tensor([[ 1.6008, -0.9865]], device='cuda:0', grad_fn=<AddmmBackward0>), hidden_states=None, attentions=None)
+tensor([[0.9300, 0.0700]], device='cuda:0', grad_fn=<SoftmaxBackward0>)
+tensor([[0.9300, 0.0700]])
+Token is valid.
+Your token has been saved in your configured git credential helpers (manager-core).
+Your token has been saved to C:\Users\rajashekar V.T\.huggingface\token
+Login successful
+Token is valid.
+Your token has been saved in your configured git credential helpers (manager-core).
+Your token has been saved to C:\Users\rajashekar V.T\.huggingface\token
+Login successful
+Configuration saved in C:\Users\RAJASH~1.T\AppData\Local\Temp\tmprkehizz9\config.json
+Model weights saved in C:\Users\RAJASH~1.T\AppData\Local\Temp\tmprkehizz9\pytorch_model.bin

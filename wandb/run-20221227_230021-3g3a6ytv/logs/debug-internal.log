@@ -1,0 +1,276 @@
+2022-12-27 23:00:21,641 INFO    StreamThr :26908 [internal.py:wandb_internal():87] W&B internal server running at pid: 26908, started at: 2022-12-27 23:00:21.640484
+2022-12-27 23:00:21,643 DEBUG   HandlerThread:26908 [handler.py:handle_request():139] handle_request: status
+2022-12-27 23:00:21,647 DEBUG   SenderThread:26908 [sender.py:send_request():317] send_request: status
+2022-12-27 23:00:21,655 DEBUG   SenderThread:26908 [sender.py:send():303] send: header
+2022-12-27 23:00:21,656 INFO    WriterThread:26908 [datastore.py:open_for_write():75] open: c:\Users\rajashekar V.T\Desktop\NLP\FINE TUNING BERT MODELS\wandb\run-20221227_230021-3g3a6ytv\run-3g3a6ytv.wandb
+2022-12-27 23:00:21,661 DEBUG   SenderThread:26908 [sender.py:send():303] send: run
+2022-12-27 23:00:22,373 DEBUG   HandlerThread:26908 [handler.py:handle_request():139] handle_request: check_version
+2022-12-27 23:00:22,381 INFO    SenderThread:26908 [dir_watcher.py:__init__():216] watching files in: c:\Users\rajashekar V.T\Desktop\NLP\FINE TUNING BERT MODELS\wandb\run-20221227_230021-3g3a6ytv\files
+2022-12-27 23:00:22,381 INFO    SenderThread:26908 [sender.py:_start_run_threads():928] run started: 3g3a6ytv with start time 1672162221.637481
+2022-12-27 23:00:22,381 DEBUG   SenderThread:26908 [sender.py:send():303] send: summary
+2022-12-27 23:00:22,382 INFO    SenderThread:26908 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-12-27 23:00:22,383 DEBUG   SenderThread:26908 [sender.py:send_request():317] send_request: check_version
+2022-12-27 23:00:22,755 DEBUG   HandlerThread:26908 [handler.py:handle_request():139] handle_request: run_start
+2022-12-27 23:00:22,801 DEBUG   HandlerThread:26908 [system_info.py:__init__():31] System info init
+2022-12-27 23:00:22,801 DEBUG   HandlerThread:26908 [system_info.py:__init__():46] System info init done
+2022-12-27 23:00:22,801 INFO    HandlerThread:26908 [system_monitor.py:start():150] Starting system monitor
+2022-12-27 23:00:22,802 INFO    SystemMonitor:26908 [system_monitor.py:_start():116] Starting system asset monitoring threads
+2022-12-27 23:00:22,802 INFO    HandlerThread:26908 [system_monitor.py:probe():171] Collecting system info
+2022-12-27 23:00:22,808 INFO    SystemMonitor:26908 [interfaces.py:start():168] Started cpu
+2022-12-27 23:00:22,808 INFO    SystemMonitor:26908 [interfaces.py:start():168] Started disk
+2022-12-27 23:00:22,809 INFO    SystemMonitor:26908 [interfaces.py:start():168] Started gpu
+2022-12-27 23:00:22,809 INFO    SystemMonitor:26908 [interfaces.py:start():168] Started memory
+2022-12-27 23:00:22,827 INFO    SystemMonitor:26908 [interfaces.py:start():168] Started network
+2022-12-27 23:00:22,832 DEBUG   HandlerThread:26908 [system_info.py:probe():195] Probing system
+2022-12-27 23:00:22,835 DEBUG   HandlerThread:26908 [system_info.py:_probe_git():180] Probing git
+2022-12-27 23:00:22,881 DEBUG   HandlerThread:26908 [system_info.py:_probe_git():188] Probing git done
+2022-12-27 23:00:22,881 DEBUG   HandlerThread:26908 [system_info.py:probe():241] Probing system done
+2022-12-27 23:00:22,881 DEBUG   HandlerThread:26908 [system_monitor.py:probe():180] {'os': 'Windows-10-10.0.22000-SP0', 'python': '3.10.8', 'heartbeatAt': '2022-12-27T17:30:22.833049', 'startedAt': '2022-12-27T17:30:21.624484', 'docker': None, 'cuda': None, 'args': None, 'state': 'running', 'program': '<python with no main file>', 'git': {'remote': 'https://git.heroku.com/tamper-app.git', 'commit': None}, 'email': 'rajashekarvt58@gmail.com', 'root': 'C:/Users/rajashekar V.T', 'host': 'LAPTOP-I926VBU6', 'username': 'rajashekar V.T', 'executable': 'c:\\Anaconda\\envs\\torch_env\\python.exe', 'cpu_count': 8, 'cpu_count_logical': 16, 'cpu_freq': {'current': 3201.0, 'min': 0.0, 'max': 3201.0}, 'cpu_freq_per_core': [{'current': 3201.0, 'min': 0.0, 'max': 3201.0}], 'disk': {'total': 250.63507461547852, 'used': 179.99560928344727}, 'gpu': 'NVIDIA GeForce RTX 3070 Laptop GPU', 'gpu_count': 1, 'gpu_devices': [{'name': 'NVIDIA GeForce RTX 3070 Laptop GPU', 'memory_total': 8589934592}], 'memory': {'total': 15.422168731689453}}
+2022-12-27 23:00:22,881 INFO    HandlerThread:26908 [system_monitor.py:probe():181] Finished collecting system info
+2022-12-27 23:00:22,882 INFO    HandlerThread:26908 [system_monitor.py:probe():184] Publishing system info
+2022-12-27 23:00:22,882 DEBUG   HandlerThread:26908 [system_info.py:_save_pip():51] Saving list of pip packages installed into the current environment
+2022-12-27 23:00:22,883 DEBUG   HandlerThread:26908 [system_info.py:_save_pip():67] Saving pip packages done
+2022-12-27 23:00:22,884 DEBUG   HandlerThread:26908 [system_info.py:_save_conda():74] Saving list of conda packages installed into the current environment
+2022-12-27 23:00:23,388 INFO    Thread-17 :26908 [dir_watcher.py:_on_file_created():275] file/dir created: c:\Users\rajashekar V.T\Desktop\NLP\FINE TUNING BERT MODELS\wandb\run-20221227_230021-3g3a6ytv\files\conda-environment.yaml
+2022-12-27 23:00:23,388 INFO    Thread-17 :26908 [dir_watcher.py:_on_file_created():275] file/dir created: c:\Users\rajashekar V.T\Desktop\NLP\FINE TUNING BERT MODELS\wandb\run-20221227_230021-3g3a6ytv\files\wandb-summary.json
+2022-12-27 23:00:23,388 INFO    Thread-17 :26908 [dir_watcher.py:_on_file_created():275] file/dir created: c:\Users\rajashekar V.T\Desktop\NLP\FINE TUNING BERT MODELS\wandb\run-20221227_230021-3g3a6ytv\files\requirements.txt
+2022-12-27 23:00:38,258 DEBUG   HandlerThread:26908 [system_info.py:_save_conda():86] Saving conda packages done
+2022-12-27 23:00:38,260 INFO    HandlerThread:26908 [system_monitor.py:probe():186] Finished publishing system info
+2022-12-27 23:00:38,458 DEBUG   HandlerThread:26908 [handler.py:handle_request():139] handle_request: stop_status
+2022-12-27 23:00:38,458 DEBUG   SenderThread:26908 [sender.py:send_request():317] send_request: stop_status
+2022-12-27 23:00:38,518 INFO    Thread-17 :26908 [dir_watcher.py:_on_file_modified():292] file/dir modified: c:\Users\rajashekar V.T\Desktop\NLP\FINE TUNING BERT MODELS\wandb\run-20221227_230021-3g3a6ytv\files\conda-environment.yaml
+2022-12-27 23:00:38,518 INFO    Thread-17 :26908 [dir_watcher.py:_on_file_created():275] file/dir created: c:\Users\rajashekar V.T\Desktop\NLP\FINE TUNING BERT MODELS\wandb\run-20221227_230021-3g3a6ytv\files\wandb-metadata.json
+2022-12-27 23:00:38,759 DEBUG   SenderThread:26908 [sender.py:send():303] send: telemetry
+2022-12-27 23:00:38,759 DEBUG   SenderThread:26908 [sender.py:send():303] send: config
+2022-12-27 23:00:38,760 DEBUG   SenderThread:26908 [sender.py:send():303] send: metric
+2022-12-27 23:00:38,760 DEBUG   SenderThread:26908 [sender.py:send():303] send: telemetry
+2022-12-27 23:00:38,760 DEBUG   SenderThread:26908 [sender.py:send():303] send: metric
+2022-12-27 23:00:38,760 WARNING SenderThread:26908 [sender.py:send_metric():1127] Seen metric with glob (shouldn't happen)
+2022-12-27 23:00:38,761 DEBUG   SenderThread:26908 [sender.py:send():303] send: telemetry
+2022-12-27 23:00:38,761 DEBUG   SenderThread:26908 [sender.py:send():303] send: files
+2022-12-27 23:00:38,761 INFO    SenderThread:26908 [sender.py:_save_file():1171] saving file wandb-metadata.json with policy now
+2022-12-27 23:00:39,714 INFO    Thread-22 :26908 [upload_job.py:push():143] Uploaded file C:\Users\RAJASH~1.T\AppData\Local\Temp\tmp_wn92qw4wandb\2e8ucxpn-wandb-metadata.json
+2022-12-27 23:00:47,794 DEBUG   HandlerThread:26908 [handler.py:handle_request():139] handle_request: stop_status
+2022-12-27 23:00:47,795 DEBUG   SenderThread:26908 [sender.py:send_request():317] send_request: stop_status
+2022-12-27 23:00:52,630 INFO    Thread-17 :26908 [dir_watcher.py:_on_file_modified():292] file/dir modified: c:\Users\rajashekar V.T\Desktop\NLP\FINE TUNING BERT MODELS\wandb\run-20221227_230021-3g3a6ytv\files\config.yaml
+2022-12-27 23:01:03,126 DEBUG   HandlerThread:26908 [handler.py:handle_request():139] handle_request: stop_status
+2022-12-27 23:01:03,126 DEBUG   SenderThread:26908 [sender.py:send_request():317] send_request: stop_status
+2022-12-27 23:01:18,433 DEBUG   HandlerThread:26908 [handler.py:handle_request():139] handle_request: stop_status
+2022-12-27 23:01:18,434 DEBUG   SenderThread:26908 [sender.py:send_request():317] send_request: stop_status
+2022-12-27 23:01:22,828 DEBUG   SystemMonitor:26908 [system_monitor.py:_start():130] Starting system metrics aggregation loop
+2022-12-27 23:01:22,829 DEBUG   SenderThread:26908 [sender.py:send():303] send: stats
+2022-12-27 23:01:33,769 DEBUG   HandlerThread:26908 [handler.py:handle_request():139] handle_request: stop_status
+2022-12-27 23:01:33,769 DEBUG   SenderThread:26908 [sender.py:send_request():317] send_request: stop_status
+2022-12-27 23:01:49,091 DEBUG   HandlerThread:26908 [handler.py:handle_request():139] handle_request: stop_status
+2022-12-27 23:01:49,092 DEBUG   SenderThread:26908 [sender.py:send_request():317] send_request: stop_status
+2022-12-27 23:01:52,840 DEBUG   SenderThread:26908 [sender.py:send():303] send: stats
+2022-12-27 23:02:04,413 DEBUG   HandlerThread:26908 [handler.py:handle_request():139] handle_request: stop_status
+2022-12-27 23:02:04,413 DEBUG   SenderThread:26908 [sender.py:send_request():317] send_request: stop_status
+2022-12-27 23:02:05,792 DEBUG   HandlerThread:26908 [handler.py:handle_request():139] handle_request: partial_history
+2022-12-27 23:02:05,795 DEBUG   SenderThread:26908 [sender.py:send():303] send: metric
+2022-12-27 23:02:05,796 DEBUG   SenderThread:26908 [sender.py:send():303] send: metric
+2022-12-27 23:02:05,797 DEBUG   SenderThread:26908 [sender.py:send():303] send: metric
+2022-12-27 23:02:05,797 DEBUG   SenderThread:26908 [sender.py:send():303] send: metric
+2022-12-27 23:02:05,797 DEBUG   SenderThread:26908 [sender.py:send():303] send: metric
+2022-12-27 23:02:05,797 DEBUG   SenderThread:26908 [sender.py:send():303] send: metric
+2022-12-27 23:02:05,797 DEBUG   SenderThread:26908 [sender.py:send():303] send: history
+2022-12-27 23:02:05,797 DEBUG   SenderThread:26908 [sender.py:send():303] send: summary
+2022-12-27 23:02:05,800 INFO    SenderThread:26908 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-12-27 23:02:05,802 DEBUG   HandlerThread:26908 [handler.py:handle_request():139] handle_request: pause
+2022-12-27 23:02:05,803 INFO    HandlerThread:26908 [handler.py:handle_request_pause():696] stopping system metrics thread or process
+2022-12-27 23:02:05,803 INFO    HandlerThread:26908 [system_monitor.py:finish():160] Stopping system monitor
+2022-12-27 23:02:05,805 DEBUG   SystemMonitor:26908 [system_monitor.py:_start():137] Finished system metrics aggregation loop
+2022-12-27 23:02:05,805 DEBUG   SystemMonitor:26908 [system_monitor.py:_start():141] Publishing last batch of metrics
+2022-12-27 23:02:05,806 INFO    HandlerThread:26908 [interfaces.py:finish():175] Joined cpu
+2022-12-27 23:02:05,821 INFO    HandlerThread:26908 [interfaces.py:finish():175] Joined disk
+2022-12-27 23:02:05,896 INFO    HandlerThread:26908 [interfaces.py:finish():175] Joined gpu
+2022-12-27 23:02:05,897 INFO    HandlerThread:26908 [interfaces.py:finish():175] Joined memory
+2022-12-27 23:02:05,897 INFO    HandlerThread:26908 [interfaces.py:finish():175] Joined network
+2022-12-27 23:02:05,897 DEBUG   SenderThread:26908 [sender.py:send():303] send: stats
+2022-12-27 23:02:06,310 INFO    Thread-17 :26908 [dir_watcher.py:_on_file_modified():292] file/dir modified: c:\Users\rajashekar V.T\Desktop\NLP\FINE TUNING BERT MODELS\wandb\run-20221227_230021-3g3a6ytv\files\wandb-summary.json
+2022-12-27 23:02:06,310 INFO    Thread-17 :26908 [dir_watcher.py:_on_file_created():275] file/dir created: c:\Users\rajashekar V.T\Desktop\NLP\FINE TUNING BERT MODELS\wandb\run-20221227_230021-3g3a6ytv\files\output.log
+2022-12-27 23:02:08,317 INFO    Thread-17 :26908 [dir_watcher.py:_on_file_modified():292] file/dir modified: c:\Users\rajashekar V.T\Desktop\NLP\FINE TUNING BERT MODELS\wandb\run-20221227_230021-3g3a6ytv\files\output.log
+2022-12-27 23:02:19,728 DEBUG   HandlerThread:26908 [handler.py:handle_request():139] handle_request: stop_status
+2022-12-27 23:02:19,729 DEBUG   SenderThread:26908 [sender.py:send_request():317] send_request: stop_status
+2022-12-27 23:02:23,472 INFO    Thread-17 :26908 [dir_watcher.py:_on_file_modified():292] file/dir modified: c:\Users\rajashekar V.T\Desktop\NLP\FINE TUNING BERT MODELS\wandb\run-20221227_230021-3g3a6ytv\files\config.yaml
+2022-12-27 23:02:35,052 DEBUG   HandlerThread:26908 [handler.py:handle_request():139] handle_request: stop_status
+2022-12-27 23:02:35,053 DEBUG   SenderThread:26908 [sender.py:send_request():317] send_request: stop_status
+2022-12-27 23:02:50,376 DEBUG   HandlerThread:26908 [handler.py:handle_request():139] handle_request: stop_status
+2022-12-27 23:02:50,376 DEBUG   SenderThread:26908 [sender.py:send_request():317] send_request: stop_status
+2022-12-27 23:02:50,938 DEBUG   HandlerThread:26908 [handler.py:handle_request():139] handle_request: resume
+2022-12-27 23:02:50,938 INFO    HandlerThread:26908 [handler.py:handle_request_resume():687] starting system metrics thread or process
+2022-12-27 23:02:52,721 INFO    Thread-17 :26908 [dir_watcher.py:_on_file_modified():292] file/dir modified: c:\Users\rajashekar V.T\Desktop\NLP\FINE TUNING BERT MODELS\wandb\run-20221227_230021-3g3a6ytv\files\output.log
+2022-12-27 23:02:57,542 DEBUG   HandlerThread:26908 [handler.py:handle_request():139] handle_request: pause
+2022-12-27 23:02:57,542 INFO    HandlerThread:26908 [handler.py:handle_request_pause():696] stopping system metrics thread or process
+2022-12-27 23:03:05,703 DEBUG   HandlerThread:26908 [handler.py:handle_request():139] handle_request: stop_status
+2022-12-27 23:03:05,703 DEBUG   SenderThread:26908 [sender.py:send_request():317] send_request: stop_status
+2022-12-27 23:03:21,014 DEBUG   HandlerThread:26908 [handler.py:handle_request():139] handle_request: stop_status
+2022-12-27 23:03:21,015 DEBUG   SenderThread:26908 [sender.py:send_request():317] send_request: stop_status
+2022-12-27 23:03:36,328 DEBUG   HandlerThread:26908 [handler.py:handle_request():139] handle_request: stop_status
+2022-12-27 23:03:36,328 DEBUG   SenderThread:26908 [sender.py:send_request():317] send_request: stop_status
+2022-12-27 23:03:51,653 DEBUG   HandlerThread:26908 [handler.py:handle_request():139] handle_request: stop_status
+2022-12-27 23:03:51,654 DEBUG   SenderThread:26908 [sender.py:send_request():317] send_request: stop_status
+2022-12-27 23:04:06,976 DEBUG   HandlerThread:26908 [handler.py:handle_request():139] handle_request: stop_status
+2022-12-27 23:04:06,976 DEBUG   SenderThread:26908 [sender.py:send_request():317] send_request: stop_status
+2022-12-27 23:04:22,297 DEBUG   HandlerThread:26908 [handler.py:handle_request():139] handle_request: stop_status
+2022-12-27 23:04:22,297 DEBUG   SenderThread:26908 [sender.py:send_request():317] send_request: stop_status
+2022-12-27 23:04:37,604 DEBUG   HandlerThread:26908 [handler.py:handle_request():139] handle_request: stop_status
+2022-12-27 23:04:37,604 DEBUG   SenderThread:26908 [sender.py:send_request():317] send_request: stop_status
+2022-12-27 23:04:52,924 DEBUG   HandlerThread:26908 [handler.py:handle_request():139] handle_request: stop_status
+2022-12-27 23:04:52,924 DEBUG   SenderThread:26908 [sender.py:send_request():317] send_request: stop_status
+2022-12-27 23:05:03,720 DEBUG   HandlerThread:26908 [handler.py:handle_request():139] handle_request: resume
+2022-12-27 23:05:03,721 INFO    HandlerThread:26908 [handler.py:handle_request_resume():687] starting system metrics thread or process
+2022-12-27 23:05:03,722 DEBUG   HandlerThread:26908 [handler.py:handle_request():139] handle_request: pause
+2022-12-27 23:05:03,722 INFO    HandlerThread:26908 [handler.py:handle_request_pause():696] stopping system metrics thread or process
+2022-12-27 23:05:07,314 DEBUG   HandlerThread:26908 [handler.py:handle_request():139] handle_request: resume
+2022-12-27 23:05:07,314 INFO    HandlerThread:26908 [handler.py:handle_request_resume():687] starting system metrics thread or process
+2022-12-27 23:05:08,242 DEBUG   HandlerThread:26908 [handler.py:handle_request():139] handle_request: stop_status
+2022-12-27 23:05:08,243 DEBUG   SenderThread:26908 [sender.py:send_request():317] send_request: stop_status
+2022-12-27 23:05:08,737 INFO    Thread-17 :26908 [dir_watcher.py:_on_file_modified():292] file/dir modified: c:\Users\rajashekar V.T\Desktop\NLP\FINE TUNING BERT MODELS\wandb\run-20221227_230021-3g3a6ytv\files\output.log
+2022-12-27 23:05:12,795 DEBUG   HandlerThread:26908 [handler.py:handle_request():139] handle_request: pause
+2022-12-27 23:05:12,795 INFO    HandlerThread:26908 [handler.py:handle_request_pause():696] stopping system metrics thread or process
+2022-12-27 23:05:23,572 DEBUG   HandlerThread:26908 [handler.py:handle_request():139] handle_request: stop_status
+2022-12-27 23:05:23,573 DEBUG   SenderThread:26908 [sender.py:send_request():317] send_request: stop_status
+2022-12-27 23:05:38,909 DEBUG   HandlerThread:26908 [handler.py:handle_request():139] handle_request: stop_status
+2022-12-27 23:05:38,909 DEBUG   SenderThread:26908 [sender.py:send_request():317] send_request: stop_status
+2022-12-27 23:05:50,950 DEBUG   HandlerThread:26908 [handler.py:handle_request():139] handle_request: resume
+2022-12-27 23:05:50,951 INFO    HandlerThread:26908 [handler.py:handle_request_resume():687] starting system metrics thread or process
+2022-12-27 23:05:53,029 INFO    Thread-17 :26908 [dir_watcher.py:_on_file_modified():292] file/dir modified: c:\Users\rajashekar V.T\Desktop\NLP\FINE TUNING BERT MODELS\wandb\run-20221227_230021-3g3a6ytv\files\output.log
+2022-12-27 23:05:54,233 DEBUG   HandlerThread:26908 [handler.py:handle_request():139] handle_request: stop_status
+2022-12-27 23:05:54,234 DEBUG   SenderThread:26908 [sender.py:send_request():317] send_request: stop_status
+2022-12-27 23:05:55,973 DEBUG   HandlerThread:26908 [handler.py:handle_request():139] handle_request: pause
+2022-12-27 23:05:55,973 INFO    HandlerThread:26908 [handler.py:handle_request_pause():696] stopping system metrics thread or process
+2022-12-27 23:06:04,208 DEBUG   HandlerThread:26908 [handler.py:handle_request():139] handle_request: resume
+2022-12-27 23:06:04,208 INFO    HandlerThread:26908 [handler.py:handle_request_resume():687] starting system metrics thread or process
+2022-12-27 23:06:04,210 DEBUG   HandlerThread:26908 [handler.py:handle_request():139] handle_request: pause
+2022-12-27 23:06:04,210 INFO    HandlerThread:26908 [handler.py:handle_request_pause():696] stopping system metrics thread or process
+2022-12-27 23:06:05,378 DEBUG   HandlerThread:26908 [handler.py:handle_request():139] handle_request: resume
+2022-12-27 23:06:05,378 INFO    HandlerThread:26908 [handler.py:handle_request_resume():687] starting system metrics thread or process
+2022-12-27 23:06:05,390 DEBUG   HandlerThread:26908 [handler.py:handle_request():139] handle_request: pause
+2022-12-27 23:06:05,390 INFO    HandlerThread:26908 [handler.py:handle_request_pause():696] stopping system metrics thread or process
+2022-12-27 23:06:07,128 INFO    Thread-17 :26908 [dir_watcher.py:_on_file_modified():292] file/dir modified: c:\Users\rajashekar V.T\Desktop\NLP\FINE TUNING BERT MODELS\wandb\run-20221227_230021-3g3a6ytv\files\output.log
+2022-12-27 23:06:09,550 DEBUG   HandlerThread:26908 [handler.py:handle_request():139] handle_request: stop_status
+2022-12-27 23:06:09,551 DEBUG   SenderThread:26908 [sender.py:send_request():317] send_request: stop_status
+2022-12-27 23:06:13,610 DEBUG   HandlerThread:26908 [handler.py:handle_request():139] handle_request: resume
+2022-12-27 23:06:13,610 INFO    HandlerThread:26908 [handler.py:handle_request_resume():687] starting system metrics thread or process
+2022-12-27 23:06:15,188 INFO    Thread-17 :26908 [dir_watcher.py:_on_file_modified():292] file/dir modified: c:\Users\rajashekar V.T\Desktop\NLP\FINE TUNING BERT MODELS\wandb\run-20221227_230021-3g3a6ytv\files\output.log
+2022-12-27 23:06:18,770 DEBUG   HandlerThread:26908 [handler.py:handle_request():139] handle_request: pause
+2022-12-27 23:06:18,770 INFO    HandlerThread:26908 [handler.py:handle_request_pause():696] stopping system metrics thread or process
+2022-12-27 23:06:24,866 DEBUG   HandlerThread:26908 [handler.py:handle_request():139] handle_request: stop_status
+2022-12-27 23:06:24,866 DEBUG   SenderThread:26908 [sender.py:send_request():317] send_request: stop_status
+2022-12-27 23:06:40,180 DEBUG   HandlerThread:26908 [handler.py:handle_request():139] handle_request: stop_status
+2022-12-27 23:06:40,180 DEBUG   SenderThread:26908 [sender.py:send_request():317] send_request: stop_status
+2022-12-27 23:06:55,501 DEBUG   HandlerThread:26908 [handler.py:handle_request():139] handle_request: stop_status
+2022-12-27 23:06:55,501 DEBUG   SenderThread:26908 [sender.py:send_request():317] send_request: stop_status
+2022-12-27 23:07:10,838 DEBUG   HandlerThread:26908 [handler.py:handle_request():139] handle_request: stop_status
+2022-12-27 23:07:10,838 DEBUG   SenderThread:26908 [sender.py:send_request():317] send_request: stop_status
+2022-12-27 23:07:26,151 DEBUG   HandlerThread:26908 [handler.py:handle_request():139] handle_request: stop_status
+2022-12-27 23:07:26,152 DEBUG   SenderThread:26908 [sender.py:send_request():317] send_request: stop_status
+2022-12-27 23:07:41,483 DEBUG   HandlerThread:26908 [handler.py:handle_request():139] handle_request: stop_status
+2022-12-27 23:07:41,483 DEBUG   SenderThread:26908 [sender.py:send_request():317] send_request: stop_status
+2022-12-27 23:07:57,334 DEBUG   HandlerThread:26908 [handler.py:handle_request():139] handle_request: stop_status
+2022-12-27 23:07:57,334 DEBUG   SenderThread:26908 [sender.py:send_request():317] send_request: stop_status
+2022-12-27 23:08:12,647 DEBUG   HandlerThread:26908 [handler.py:handle_request():139] handle_request: stop_status
+2022-12-27 23:08:12,648 DEBUG   SenderThread:26908 [sender.py:send_request():317] send_request: stop_status
+2022-12-27 23:08:27,971 DEBUG   HandlerThread:26908 [handler.py:handle_request():139] handle_request: stop_status
+2022-12-27 23:08:27,971 DEBUG   SenderThread:26908 [sender.py:send_request():317] send_request: stop_status
+2022-12-27 23:08:43,290 DEBUG   HandlerThread:26908 [handler.py:handle_request():139] handle_request: stop_status
+2022-12-27 23:08:43,291 DEBUG   SenderThread:26908 [sender.py:send_request():317] send_request: stop_status
+2022-12-27 23:08:58,596 DEBUG   HandlerThread:26908 [handler.py:handle_request():139] handle_request: stop_status
+2022-12-27 23:08:58,596 DEBUG   SenderThread:26908 [sender.py:send_request():317] send_request: stop_status
+2022-12-27 23:09:13,905 DEBUG   HandlerThread:26908 [handler.py:handle_request():139] handle_request: stop_status
+2022-12-27 23:09:13,906 DEBUG   SenderThread:26908 [sender.py:send_request():317] send_request: stop_status
+2022-12-27 23:09:29,446 DEBUG   HandlerThread:26908 [handler.py:handle_request():139] handle_request: stop_status
+2022-12-27 23:09:29,447 DEBUG   SenderThread:26908 [sender.py:send_request():317] send_request: stop_status
+2022-12-27 23:09:44,055 DEBUG   HandlerThread:26908 [handler.py:handle_request():139] handle_request: resume
+2022-12-27 23:09:44,056 INFO    HandlerThread:26908 [handler.py:handle_request_resume():687] starting system metrics thread or process
+2022-12-27 23:09:44,110 DEBUG   SenderThread:26908 [sender.py:send():303] send: config
+2022-12-27 23:09:44,112 DEBUG   SenderThread:26908 [sender.py:send():303] send: metric
+2022-12-27 23:09:44,113 DEBUG   SenderThread:26908 [sender.py:send():303] send: metric
+2022-12-27 23:09:44,113 WARNING SenderThread:26908 [sender.py:send_metric():1127] Seen metric with glob (shouldn't happen)
+2022-12-27 23:09:44,779 DEBUG   HandlerThread:26908 [handler.py:handle_request():139] handle_request: stop_status
+2022-12-27 23:09:44,779 DEBUG   SenderThread:26908 [sender.py:send_request():317] send_request: stop_status
+2022-12-27 23:09:45,849 INFO    Thread-17 :26908 [dir_watcher.py:_on_file_modified():292] file/dir modified: c:\Users\rajashekar V.T\Desktop\NLP\FINE TUNING BERT MODELS\wandb\run-20221227_230021-3g3a6ytv\files\output.log
+2022-12-27 23:10:00,094 DEBUG   HandlerThread:26908 [handler.py:handle_request():139] handle_request: stop_status
+2022-12-27 23:10:00,094 DEBUG   SenderThread:26908 [sender.py:send_request():317] send_request: stop_status
+2022-12-27 23:10:02,964 INFO    Thread-17 :26908 [dir_watcher.py:_on_file_modified():292] file/dir modified: c:\Users\rajashekar V.T\Desktop\NLP\FINE TUNING BERT MODELS\wandb\run-20221227_230021-3g3a6ytv\files\config.yaml
+2022-12-27 23:10:15,407 DEBUG   HandlerThread:26908 [handler.py:handle_request():139] handle_request: stop_status
+2022-12-27 23:10:15,407 DEBUG   SenderThread:26908 [sender.py:send_request():317] send_request: stop_status
+2022-12-27 23:10:30,733 DEBUG   HandlerThread:26908 [handler.py:handle_request():139] handle_request: stop_status
+2022-12-27 23:10:30,733 DEBUG   SenderThread:26908 [sender.py:send_request():317] send_request: stop_status
+2022-12-27 23:10:46,058 DEBUG   HandlerThread:26908 [handler.py:handle_request():139] handle_request: stop_status
+2022-12-27 23:10:46,059 DEBUG   SenderThread:26908 [sender.py:send_request():317] send_request: stop_status
+2022-12-27 23:11:01,651 DEBUG   HandlerThread:26908 [handler.py:handle_request():139] handle_request: stop_status
+2022-12-27 23:11:01,652 DEBUG   SenderThread:26908 [sender.py:send_request():317] send_request: stop_status
+2022-12-27 23:11:16,975 DEBUG   HandlerThread:26908 [handler.py:handle_request():139] handle_request: stop_status
+2022-12-27 23:11:16,975 DEBUG   SenderThread:26908 [sender.py:send_request():317] send_request: stop_status
+2022-12-27 23:11:32,314 DEBUG   HandlerThread:26908 [handler.py:handle_request():139] handle_request: stop_status
+2022-12-27 23:11:32,314 DEBUG   SenderThread:26908 [sender.py:send_request():317] send_request: stop_status
+2022-12-27 23:11:47,637 DEBUG   HandlerThread:26908 [handler.py:handle_request():139] handle_request: stop_status
+2022-12-27 23:11:47,637 DEBUG   SenderThread:26908 [sender.py:send_request():317] send_request: stop_status
+2022-12-27 23:12:02,971 DEBUG   HandlerThread:26908 [handler.py:handle_request():139] handle_request: stop_status
+2022-12-27 23:12:02,971 DEBUG   SenderThread:26908 [sender.py:send_request():317] send_request: stop_status
+2022-12-27 23:12:18,306 DEBUG   HandlerThread:26908 [handler.py:handle_request():139] handle_request: stop_status
+2022-12-27 23:12:18,306 DEBUG   SenderThread:26908 [sender.py:send_request():317] send_request: stop_status
+2022-12-27 23:12:33,623 DEBUG   HandlerThread:26908 [handler.py:handle_request():139] handle_request: stop_status
+2022-12-27 23:12:33,623 DEBUG   SenderThread:26908 [sender.py:send_request():317] send_request: stop_status
+2022-12-27 23:12:48,949 DEBUG   HandlerThread:26908 [handler.py:handle_request():139] handle_request: stop_status
+2022-12-27 23:12:48,949 DEBUG   SenderThread:26908 [sender.py:send_request():317] send_request: stop_status
+2022-12-27 23:12:49,178 DEBUG   HandlerThread:26908 [handler.py:handle_request():139] handle_request: partial_history
+2022-12-27 23:12:49,185 DEBUG   HandlerThread:26908 [handler.py:handle_request():139] handle_request: pause
+2022-12-27 23:12:49,185 INFO    HandlerThread:26908 [handler.py:handle_request_pause():696] stopping system metrics thread or process
+2022-12-27 23:12:49,255 DEBUG   SenderThread:26908 [sender.py:send():303] send: history
+2022-12-27 23:12:49,256 DEBUG   SenderThread:26908 [sender.py:send():303] send: summary
+2022-12-27 23:12:49,259 INFO    SenderThread:26908 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-12-27 23:12:49,333 DEBUG   HandlerThread:26908 [handler.py:handle_request():139] handle_request: resume
+2022-12-27 23:12:49,333 INFO    HandlerThread:26908 [handler.py:handle_request_resume():687] starting system metrics thread or process
+2022-12-27 23:12:49,337 INFO    Thread-17 :26908 [dir_watcher.py:_on_file_modified():292] file/dir modified: c:\Users\rajashekar V.T\Desktop\NLP\FINE TUNING BERT MODELS\wandb\run-20221227_230021-3g3a6ytv\files\wandb-summary.json
+2022-12-27 23:12:51,355 INFO    Thread-17 :26908 [dir_watcher.py:_on_file_modified():292] file/dir modified: c:\Users\rajashekar V.T\Desktop\NLP\FINE TUNING BERT MODELS\wandb\run-20221227_230021-3g3a6ytv\files\output.log
+2022-12-27 23:13:03,624 DEBUG   HandlerThread:26908 [handler.py:handle_request():139] handle_request: pause
+2022-12-27 23:13:03,624 INFO    HandlerThread:26908 [handler.py:handle_request_pause():696] stopping system metrics thread or process
+2022-12-27 23:13:04,260 DEBUG   HandlerThread:26908 [handler.py:handle_request():139] handle_request: stop_status
+2022-12-27 23:13:04,260 DEBUG   SenderThread:26908 [sender.py:send_request():317] send_request: stop_status
+2022-12-27 23:13:19,574 DEBUG   HandlerThread:26908 [handler.py:handle_request():139] handle_request: stop_status
+2022-12-27 23:13:19,575 DEBUG   SenderThread:26908 [sender.py:send_request():317] send_request: stop_status
+2022-12-27 23:13:34,897 DEBUG   HandlerThread:26908 [handler.py:handle_request():139] handle_request: stop_status
+2022-12-27 23:13:34,897 DEBUG   SenderThread:26908 [sender.py:send_request():317] send_request: stop_status
+2022-12-27 23:13:50,213 DEBUG   HandlerThread:26908 [handler.py:handle_request():139] handle_request: stop_status
+2022-12-27 23:13:50,213 DEBUG   SenderThread:26908 [sender.py:send_request():317] send_request: stop_status
+2022-12-27 23:14:05,553 DEBUG   HandlerThread:26908 [handler.py:handle_request():139] handle_request: stop_status
+2022-12-27 23:14:05,553 DEBUG   SenderThread:26908 [sender.py:send_request():317] send_request: stop_status
+2022-12-27 23:14:20,959 DEBUG   HandlerThread:26908 [handler.py:handle_request():139] handle_request: stop_status
+2022-12-27 23:14:20,959 DEBUG   SenderThread:26908 [sender.py:send_request():317] send_request: stop_status
+2022-12-27 23:14:36,266 DEBUG   HandlerThread:26908 [handler.py:handle_request():139] handle_request: stop_status
+2022-12-27 23:14:36,266 DEBUG   SenderThread:26908 [sender.py:send_request():317] send_request: stop_status
+2022-12-27 23:14:51,587 DEBUG   HandlerThread:26908 [handler.py:handle_request():139] handle_request: stop_status
+2022-12-27 23:14:51,588 DEBUG   SenderThread:26908 [sender.py:send_request():317] send_request: stop_status
+2022-12-27 23:15:06,920 DEBUG   HandlerThread:26908 [handler.py:handle_request():139] handle_request: stop_status
+2022-12-27 23:15:06,920 DEBUG   SenderThread:26908 [sender.py:send_request():317] send_request: stop_status
+2022-12-27 23:15:22,249 DEBUG   HandlerThread:26908 [handler.py:handle_request():139] handle_request: stop_status
+2022-12-27 23:15:22,249 DEBUG   SenderThread:26908 [sender.py:send_request():317] send_request: stop_status
+2022-12-27 23:15:37,565 DEBUG   HandlerThread:26908 [handler.py:handle_request():139] handle_request: stop_status
+2022-12-27 23:15:37,565 DEBUG   SenderThread:26908 [sender.py:send_request():317] send_request: stop_status
+2022-12-27 23:15:52,877 DEBUG   HandlerThread:26908 [handler.py:handle_request():139] handle_request: stop_status
+2022-12-27 23:15:52,877 DEBUG   SenderThread:26908 [sender.py:send_request():317] send_request: stop_status
+2022-12-27 23:16:08,184 DEBUG   HandlerThread:26908 [handler.py:handle_request():139] handle_request: stop_status
+2022-12-27 23:16:08,185 DEBUG   SenderThread:26908 [sender.py:send_request():317] send_request: stop_status
+2022-12-27 23:16:23,500 DEBUG   HandlerThread:26908 [handler.py:handle_request():139] handle_request: stop_status
+2022-12-27 23:16:23,501 DEBUG   SenderThread:26908 [sender.py:send_request():317] send_request: stop_status
+2022-12-27 23:16:38,824 DEBUG   HandlerThread:26908 [handler.py:handle_request():139] handle_request: stop_status
+2022-12-27 23:16:38,824 DEBUG   SenderThread:26908 [sender.py:send_request():317] send_request: stop_status
+2022-12-27 23:16:54,148 DEBUG   HandlerThread:26908 [handler.py:handle_request():139] handle_request: stop_status
+2022-12-27 23:16:54,149 DEBUG   SenderThread:26908 [sender.py:send_request():317] send_request: stop_status
+2022-12-27 23:17:09,474 DEBUG   HandlerThread:26908 [handler.py:handle_request():139] handle_request: stop_status
+2022-12-27 23:17:09,475 DEBUG   SenderThread:26908 [sender.py:send_request():317] send_request: stop_status
+2022-12-27 23:17:25,635 DEBUG   HandlerThread:26908 [handler.py:handle_request():139] handle_request: stop_status
+2022-12-27 23:17:25,635 DEBUG   SenderThread:26908 [sender.py:send_request():317] send_request: stop_status
+2022-12-27 23:17:40,962 DEBUG   HandlerThread:26908 [handler.py:handle_request():139] handle_request: stop_status
+2022-12-27 23:17:40,963 DEBUG   SenderThread:26908 [sender.py:send_request():317] send_request: stop_status
+2022-12-27 23:17:56,287 DEBUG   HandlerThread:26908 [handler.py:handle_request():139] handle_request: stop_status
+2022-12-27 23:17:56,288 DEBUG   SenderThread:26908 [sender.py:send_request():317] send_request: stop_status
+2022-12-27 23:18:11,656 DEBUG   HandlerThread:26908 [handler.py:handle_request():139] handle_request: stop_status
+2022-12-27 23:18:11,657 DEBUG   SenderThread:26908 [sender.py:send_request():317] send_request: stop_status
+2022-12-27 23:18:26,992 DEBUG   HandlerThread:26908 [handler.py:handle_request():139] handle_request: stop_status
+2022-12-27 23:18:26,992 DEBUG   SenderThread:26908 [sender.py:send_request():317] send_request: stop_status
+2022-12-27 23:18:42,312 DEBUG   HandlerThread:26908 [handler.py:handle_request():139] handle_request: stop_status
+2022-12-27 23:18:42,312 DEBUG   SenderThread:26908 [sender.py:send_request():317] send_request: stop_status
